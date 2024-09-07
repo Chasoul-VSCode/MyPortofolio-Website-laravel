@@ -38,7 +38,7 @@
             <div>
                 <h1 class="text-5xl font-bold">Chasoul Website Portofolio</h1>
                 <p class="py-6">UI-UX Designer | Front-End Developer </p>
-                <button class="transition-colors duration-300 btn btn-primary hover:bg-primary-focus">About Me</button>
+                <button class="transition-colors duration-300 btn btn-primary hover:bg-primary-focus">Download CV</button>
             </div>
         </div>
     </div>
@@ -88,9 +88,6 @@
           <div class="stat">
             <div class="stat-figure text-secondary">
               <div class="avatar online">
-                <div class="w-16 rounded-full">
-                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                </div>
               </div>
             </div>
             <div class="stat-value">86%</div>
@@ -107,8 +104,10 @@
           <div class="max-w-md">
             <h1 class="text-5xl font-bold">About Me</h1>
             <p class="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-              quasi. In deleniti eaque aut repudiandae et a id nisi.
+              Lulusan SMK Multimedia, dan sekarang menjalani pendidikan sebagai Mahasiswa Ilmu komputer Teknik informatika semester 5,
+              Seorang konten kreator dan memiliki pengalaman
+              dan keahlian dibidang UI-UX disebuah Agency. Berantusias tinggi dalam mengembangkan Website, UI, dan kemampuan
+              dalam public speaking yang baik
             </p>
             {{-- <button class="btn btn-primary">Get Started</button> --}}
           </div>
@@ -135,9 +134,11 @@
             </svg>
           </div>
           <div class="mb-10 timeline-start md:text-end">
-            <time class="font-mono italic">1984</time>
-            <div class="text-lg font-black">First Macintosh computer</div>
-            The Apple Macintosh—later rebranded as
+            <time class="font-mono italic">2017-2020</time>
+            <div class="text-lg font-black">Designer Graphics - Freelance</div>
+            Pembuatan Identitas Merk atau Brand <br>
+            Pengolahan dan manipulasi Vektor <br>
+            Pembuatan desain Poster atau banner
           </div>
           <hr />
         </li>
@@ -156,9 +157,12 @@
             </svg>
           </div>
           <div class="mb-10 timeline-end">
-            <time class="font-mono italic">1998</time>
-            <div class="text-lg font-black">iMac</div>
-            iMac is a family of all-in-one Mac desktop computers
+            <time class="font-mono italic">2019</time>
+            <div class="text-lg font-black">IT Technician - Magang</div>
+            Ahli dalam Installasi OS <br>
+            Memperbaiki hardware <br>
+            Melakukan installasi software <br>
+            Merakit PC
           </div>
           <hr />
         </li>
@@ -177,9 +181,12 @@
             </svg>
           </div>
           <div class="mb-10 timeline-start md:text-end">
-            <time class="font-mono italic">2001</time>
-            <div class="text-lg font-black">iPod</div>
-            The iPod is a discontinued series of portable media players
+            <time class="font-mono italic">2020-2021</time>
+            <div class="text-lg font-black">Content Creator</div>
+            Mengembangkan strategi pembuatan konten <br>
+            Menganalisa performa konten <br>
+            Menciptakan sebuah konten yang menyeseuaikan algoritma tren <br>
+
           </div>
           <hr />
         </li>
@@ -198,10 +205,12 @@
             </svg>
           </div>
           <div class="mb-10 timeline-end">
-            <time class="font-mono italic">2007</time>
-            <div class="text-lg font-black">iPhone</div>
-            iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile
-            operating system.
+            <time class="font-mono italic">2021-2022</time>
+            <div class="text-lg font-black">Talent Scout Media Social Agency</div>
+            Mengidentifikasi strategi perekrutan new talent <br>
+            Melakukan sesi wawancara dan penilaian <br>
+            Memelihara hubungan dan komunikasi dengan team <br>
+            Membantu talent untuk mengidentifikasi tren
           </div>
           <hr />
         </li>
@@ -220,9 +229,11 @@
             </svg>
           </div>
           <div class="mb-10 timeline-start md:text-end">
-            <time class="font-mono italic">2015</time>
-            <div class="text-lg font-black">Apple Watch</div>
-            The Apple Watch is a line of smartwatches produced by Apple Inc
+            <time class="font-mono italic">2024</time>
+            <div class="text-lg font-black">UI-UX Designer</div>
+            Merancang pembuatan desain Website <br>
+            Ahli dalam pembuatan UI menggunakan Figma <br>
+            Memastikan keselarasan dan kolaborasi dengan FE dan BE
           </div>
         </li>
       </ul>
@@ -239,7 +250,7 @@
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Contact</a>
           <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+          <a class="link link-hover">Github</a>
         </nav>
         <nav>
           <div class="grid grid-flow-col gap-4">
@@ -279,7 +290,7 @@
           </div>
         </nav>
         <aside>
-          <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+          <p>Website created by Chasoul.uix @2024 </p>
         </aside>
       </footer>
 </body>
