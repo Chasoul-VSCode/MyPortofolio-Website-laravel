@@ -14,8 +14,8 @@
             <a class="text-2xl font-bold btn btn-ghost">Chasoul UIX</a>
             <div>
                 <ul class="menu menu-horizontal">
-                    <li><a href="#" class="hover:text-primary">Github</a></li>
-                    <li><a href="#" class="hover:text-primary">Instagram</a></li>
+                    <li><a href="https://github.com/Chasoul-VSCode" class="hover:text-primary">Github</a></li>
+                    <li><a href="https://instagram.com/chasoul.uix" class="hover:text-primary">Instagram</a></li>
                     <li><a href="#" class="hover:text-primary">Linkedin</a></li>
                     <li>
                         <details class="group">
@@ -34,13 +34,25 @@
     {{-- header --}}
     <div class="min-h-screen hero bg-base-200">
         <div class="container flex-col mx-auto hero-content lg:flex-row-reverse">
-            <img src="img/me.jpg" alt="Profile" class="max-w-sm transition-transform duration-300 rounded-lg shadow-2xl hover:scale-105" />
+            <img src="img/me.jpg" alt="Profile" class="max-w-sm transition-transform duration-300 rounded-lg shadow-2xl hover:scale-105" style="width: 20%; margin-left:50px; border-radius:20%;"/>
             <div>
                 <h1 class="text-5xl font-bold">Chasoul Website Portofolio</h1>
-                <p class="py-6">UI-UX Designer | Front-End Developer </p>
-                <button class="transition-colors duration-300 btn btn-primary hover:bg-primary-focus">Download CV</button>
+                <p class="py-6">UI-UX Designer | Front-End Developer | Content Creator Agency Media
+                <br>
+                TS International Agency 2021 | UI-UX Designer 2024
+                </p>
+                <button class="transition-colors duration-300 btn btn-primary hover:bg-primary-focus"><a href="https://saweria.co/chasoul" target="_self">Support Me</a></button>
+                <div class="dropdown dropdown-right">
+                    <div tabindex="0" role="button" class="m-1 btn" style="background-color: rgb(0, 0, 0)">Contact Us</div>
+                    <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                      <li><a>Whatsapp : +62 85172360309</a></li>
+                      <li><a>Email : chasoul.contact@gmail.com</a></li>
+                      <li><a>Github : Chasoul-VSCode</a></li>
+                    </ul>
+                  </div>
             </div>
         </div>
+        <span class="loading loading-infinity loading-lg" style="margin-left: 250px;"></span>
     </div>
     <br>
 
@@ -62,7 +74,7 @@
               </svg>
             </div>
             <div class="stat-title">Total Likes</div>
-            <div class="stat-value text-primary">25.6K</div>
+            <div class="stat-value text-primary">190</div>
             <div class="stat-desc">21% more than last month</div>
           </div>
 
@@ -81,7 +93,7 @@
               </svg>
             </div>
             <div class="stat-title">Page Views</div>
-            <div class="stat-value text-secondary">2.6M</div>
+            <div class="stat-value text-secondary">291</div>
             <div class="stat-desc">21% more than last month</div>
           </div>
 
@@ -97,6 +109,102 @@
         </div>
       </div>
       <br>
+
+    {{-- table skill --}}
+    <div class="overflow-x-auto" style="padding: 50px;">
+        <table class="table">
+            <p style="text-align: center">My Project On My Github ( Chasoul-VSCode )</p>
+            <br>
+          <!-- head -->
+          <thead>
+            <tr>
+              <th>
+                <label>
+                  <input type="checkbox" class="checkbox" />
+                </label>
+              </th>
+              <th>Project Name</th>
+              <th>Leanguage</th>
+              <th>Github Repository</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- row 1 -->
+            <tr>
+              <th>
+                <label>
+                  <input type="checkbox" class="checkbox" />
+                </label>
+              </th>
+              <td>
+                <div class="flex items-center gap-3">
+                    <div class="font-bold">Recruitment Agency</div>
+                    <div class="text-sm opacity-50"></div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                PHP ( Laravel )
+                <br />
+                <span class="badge badge-ghost badge-sm">Website App</span>
+              </td>
+              <td>Ready</td>
+              <th>
+                <button class="btn btn-ghost btn-xs">Github</button>
+              </th>
+            </tr>
+            <!-- row 2 -->
+            <tr>
+              <th>
+                <label>
+                  <input type="checkbox" class="checkbox" />
+                </label>
+              </th>
+              <td>
+                <div class="flex items-center gap-3">
+                  <div>
+                    <div class="font-bold">API Recruitment Agency </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                Python
+                <br />
+                <span class="badge badge-ghost badge-sm">Service API</span>
+              </td>
+              <td>Update Pending</td>
+              <th>
+                <button class="btn btn-ghost btn-xs">Github</button>
+              </th>
+            </tr>
+            {{-- row 3 --}}
+            <tr>
+              <th>
+                <label>
+                  <input type="checkbox" class="checkbox" />
+                </label>
+              </th>
+              <td>
+                <div class="flex items-center gap-3">
+                  <div>
+                    <div class="font-bold">TobeStore ID </div>
+                    <div class="text-sm opacity-50">E-Commerce WebApp</div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                PHP ( Laravel )
+                <br />
+                <span class="badge badge-ghost badge-sm">Website App</span>
+              </td>
+              <td>Update Pending</td>
+              <th>
+                <button class="btn btn-ghost btn-xs">Github</button>
+              </th>
+            </tr>
+        </table>
+      </div>
 
     {{-- about me --}}
     <div class="min-h-screen hero bg-base-200">
