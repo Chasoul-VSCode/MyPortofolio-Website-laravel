@@ -14,15 +14,13 @@
             <a class="text-2xl font-bold btn btn-ghost">Chasoul UIX</a>
             <div>
                 <ul class="menu menu-horizontal">
-                    <li><a href="https://github.com/Chasoul-VSCode" class="hover:text-primary">Github</a></li>
                     <li><a href="https://instagram.com/chasoul.uix" class="hover:text-primary">Instagram</a></li>
-                    <li><a href="#" class="hover:text-primary">Linkedin</a></li>
                     <li>
                         <details class="group">
                             <summary class="cursor-pointer">About Me</summary>
                             <ul class="hidden p-2 rounded-lg shadow-md bg-base-100 group-open:block">
-                                <li><a href="#" class="hover:text-primary">Project</a></li>
-                                <li><a href="#" class="hover:text-primary">Certificate</a></li>
+                                <li><a href="#Project" class="hover:text-primary">Project</a></li>
+                                <li><a href="#AboutMe" class="hover:text-primary">About Me</a></li>
                             </ul>
                         </details>
                     </li>
@@ -32,7 +30,7 @@
     </div>
 
     {{-- header --}}
-    <div class="min-h-screen hero bg-base-200">
+    <div class="min-h-screen hero bg-base-200" id="Contact">
         <div class="container flex-col mx-auto hero-content lg:flex-row-reverse">
             <img src="img/me.jpg" alt="Profile" class="max-w-sm transition-transform duration-300 rounded-lg shadow-2xl hover:scale-105" style="width: 20%; margin-left:50px; border-radius:20%;"/>
             <div>
@@ -57,7 +55,7 @@
     <br>
 
     {{-- statistic --}}
-    <div class="flex justify-center">
+    <div class="flex justify-center"  id="Project">
         <div class="shadow stats">
           <div class="stat">
             <div class="stat-figure text-primary">
@@ -113,7 +111,7 @@
     {{-- table skill --}}
     <div class="overflow-x-auto" style="padding: 50px;">
         <table class="table">
-            <p style="text-align: center">My Project On My Github ( Chasoul-VSCode )</p>
+            <p style="text-align: center">My Project On Github ( Chasoul-VSCode )</p>
             <br>
           <!-- head -->
           <thead>
@@ -130,6 +128,7 @@
             </tr>
           </thead>
           <tbody>
+
             <!-- row 1 -->
             <tr>
               <th>
@@ -154,6 +153,7 @@
                 <button class="btn btn-ghost btn-xs">Github</button>
               </th>
             </tr>
+
             <!-- row 2 -->
             <tr>
               <th>
@@ -173,11 +173,37 @@
                 <br />
                 <span class="badge badge-ghost badge-sm">Service API</span>
               </td>
-              <td>Update Pending</td>
+              <td>Ready</td>
               <th>
                 <button class="btn btn-ghost btn-xs">Github</button>
               </th>
             </tr>
+
+             <!-- row 3 -->
+            <tr>
+              <th>
+                <label>
+                  <input type="checkbox" class="checkbox" />
+                </label>
+              </th>
+              <td>
+                <div class="flex items-center gap-3">
+                  <div>
+                    <div class="font-bold"> UI Absensi & Admin </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                HTML, CSS ( Figma )
+                <br />
+                <span class="badge badge-ghost badge-sm">UI UX Design</span>
+              </td>
+              <td>Ready</td>
+              <th>
+                <button class="btn btn-ghost btn-xs">Github</button>
+              </th>
+            </tr>
+
             {{-- row 3 --}}
             <tr>
               <th>
@@ -198,16 +224,92 @@
                 <br />
                 <span class="badge badge-ghost badge-sm">Website App</span>
               </td>
-              <td>Update Pending</td>
+              <td>Ready</td>
               <th>
                 <button class="btn btn-ghost btn-xs">Github</button>
               </th>
-            </tr>
-        </table>
-      </div>
+
+       {{-- row 4 --}}
+       <tr>
+        <th>
+          <label>
+            <input type="checkbox" class="checkbox" />
+          </label>
+        </th>
+        <td>
+          <div class="flex items-center gap-3">
+            <div>
+              <div class="font-bold">UI Agency Profile </div>
+              <div class="text-sm opacity-50">Profile Company UI</div>
+            </div>
+          </div>
+        </td>
+        <td>
+          PHP ( Laravel )
+          <br />
+          <span class="badge badge-ghost badge-sm">Website App</span>
+        </td>
+        <td>Update Pending</td>
+        <th>
+          <button class="btn btn-ghost btn-xs">Github</button>
+        </th>
+
+       {{-- row 5 --}}
+       <tr>
+        <th>
+          <label>
+            <input type="checkbox" class="checkbox" />
+          </label>
+        </th>
+        <td>
+          <div class="flex items-center gap-3">
+            <div>
+              <div class="font-bold">Pembayaran Pesantren </div>
+              <div class="text-sm opacity-50"></div>
+            </div>
+          </div>
+        </td>
+        <td>
+          PHP ( Laravel )
+          <br />
+          <span class="badge badge-ghost badge-sm">Website App</span>
+        </td>
+        <td>Update Pending</td>
+        <th>
+          <button class="btn btn-ghost btn-xs">Github</button>
+        </th>
+
+       {{-- row 6 --}}
+       <tr>
+        <th>
+          <label>
+            <input type="checkbox" class="checkbox" />
+          </label>
+        </th>
+        <td>
+          <div class="flex items-center gap-3">
+            <div>
+              <div class="font-bold"> Penghitung Ahli Waris </div>
+              <div class="text-sm opacity-50"> </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          JavaScript
+          <br />
+          <span class="badge badge-ghost badge-sm">Website App</span>
+        </td>
+        <td>Ready ( Develop )</td>
+        <th>
+          <button class="btn btn-ghost btn-xs">Github</button>
+        </th>
+      </tr>
+  </table>
+</div>
+
 
     {{-- about me --}}
-    <div class="min-h-screen hero bg-base-200">
+    <div class="min-h-screen hero bg-base-200" id="AboutMe">
         <div class="text-center hero-content">
           <div class="max-w-md">
             <h1 class="text-5xl font-bold">About Me</h1>
@@ -224,10 +326,11 @@
       <br>
 
     {{-- work experience --}}
-    <div class="min-h-screen hero bg-base-200">
+    <div class="min-h-screen hero bg-base-200" id="work">
     <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <br>
         <p style="text-align: center">work experience</p>
+        <br>
         <li>
           <div class="timeline-middle">
             <svg
@@ -355,10 +458,10 @@
     {{-- footer --}}
     <footer class="p-10 rounded footer footer-center bg-base-200 text-base-content">
         <nav class="grid grid-flow-col gap-4">
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Github</a>
+          <a class="link link-hover" href="#AboutMe">About us</a>
+          <a class="link link-hover" href="#Contact">Contact</a>
+          <a class="link link-hover" href="#work">Jobs</a>
+          <a class="link link-hover" href="https://github.com/Chasoul-VSCode">Github</a>
         </nav>
         <nav>
           <div class="grid grid-flow-col gap-4">
